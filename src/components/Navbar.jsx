@@ -1,8 +1,13 @@
 import React from 'react'
 
-export default function Navbar() {
+const title = "Group 4";
+export function Navbar({title,children}) {
+   
   return (
-    <div>Navbar</div>
+    <div>
+      {title}
+      {children} 
+    </div>
   )
 }
 
