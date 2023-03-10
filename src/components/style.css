@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    justify-content: center;
+    gap: 60px;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.wrapper h1{
+    color: brown;
+    font-size: 40px;
+}
+.wrapper h4{
+    color: darkblue;
+    font-size: 30px;
+}
