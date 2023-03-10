@@ -16,6 +16,7 @@ const data=[
   {id:8, title:'ananas va banan', info:'mevalar berilgan8',src:'https://www.dole.com/-/media/project/dole/produce-images/headers/dole-produce-fruit-medley.png?rev=1416123f2d094cd1b7494365948214be&hash=F89C9786C9A5F599A784D7753F82236C'},
   {id:8, title:'ananas va banan', info:'mevalar berilgan8',src:'https://www.dole.com/-/media/project/dole/produce-images/headers/dole-produce-fruit-medley.png?rev=1416123f2d094cd1b7494365948214be&hash=F89C9786C9A5F599A784D7753F82236C'},
   {id:8, title:'ananas va banan', info:'mevalar berilgan8',src:'https://www.dole.com/-/media/project/dole/produce-images/headers/dole-produce-fruit-medley.png?rev=1416123f2d094cd1b7494365948214be&hash=F89C9786C9A5F599A784D7753F82236C'},
+  {id:8, title:'ananas va banan', info:'mevalar berilgan8',src:'https://www.dole.com/-/media/project/dole/produce-images/headers/dole-produce-fruit-medley.png?rev=1416123f2d094cd1b7494365948214be&hash=F89C9786C9A5F599A784D7753F82236C'},
 ]
 function Container() {
   return (
