@@ -3,7 +3,7 @@ import React from 'react'
 // import ChildCom from './components/ChildCom'
 // import Container from './components/Container'
 // import Hooks from './components/Hooks'
- 
+
 const data = [
   {id:1,names:"Bobur",age:23, email:"bbbbbbbbbb@gmail.com",address:"Tashkent"},
   {id:2,names:"Sardor",age:17, email:"sssssss@gmail.com",address:"Samarqand"},
@@ -22,5 +22,5 @@ function App() {
   )
 }
 
-// 25 24 18 18 19 19 17 21  
+// 25 24 18 18 19 19 17 21
 export default App
