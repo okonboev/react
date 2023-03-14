@@ -1,9 +1,11 @@
-function addSom(a){
-    console.log(a);
+let e = {
+    target:{
+        value:"textt"
+    }
+    // ..
+    // ..
+    // ..
+    // ..
+    // ..
 }
-addSom("best");
-addSom("test");
-let obj={
-    title:"this is key"
-}
-console.log(obj.title);
+console.log(e.target.value);

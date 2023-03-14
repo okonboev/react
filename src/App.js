@@ -1,4 +1,5 @@
 import React from 'react'
+import Event from './component/Event';
 // import Cards from './components/Cards'
 // import ChildCom from './components/ChildCom'
 // import Container from './components/Container'
@@ -16,8 +17,7 @@ function App() {
   return (
     <div style={{padding:"20px"}}>
       <h1>App</h1>
-      {/* <Cards datas={data}/>
-      <Container datas={data}/> */}
+      <Event />
     </div>
   )
 }
