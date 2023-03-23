@@ -1,10 +1,6 @@
 import React from 'react'
-// import Event from './component/Event';
-import Map from './component/Map';
-// import Cards from './components/Cards'
-// import ChildCom from './components/ChildCom'
-// import Container from './components/Container'
-// import Hooks from './components/Hooks'
+import StyledCom from './component/StyledCom';
+ 
 
 const data = [
   {id:1,names:"Bobur",age:23,  email:"bbbbbbbbbb@gmail.com",address:"Tashkent"},
@@ -18,8 +14,8 @@ function App() {
   return (
     <div style={{padding:"20px"}}>
       <h1>App</h1>
-      {/* <Event /> */}
-      <Map />
+      <StyledCom />
+ 
     </div>
   )
 }
