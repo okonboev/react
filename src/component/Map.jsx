@@ -103,7 +103,7 @@ function Map() {
                     }
                   </td>
                   <td>
-                    <button onClick={() => onDelete(val.id)}>delete</button>
+                    <button onClick={() => onDelete(val.id)}>deletes</button>
                     {
                       active?.id === val.id ? <button onClick={onSave}>save</button> : <button onClick={()=>onEdit(val)}>edit</button>
                     }
