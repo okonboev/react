@@ -1,5 +1,5 @@
 import React from 'react'
-import StyledCom from './component/StyledCom';
+import YouTube from './component/YouTube';
  
 
 const data = [
@@ -12,10 +12,8 @@ const data = [
 
 function App() {
   return (
-    <div style={{padding:"20px"}}>
-      <h1>App</h1>
-      <StyledCom />
- 
+    <div >
+      <YouTube/>
     </div>
   )
 }
