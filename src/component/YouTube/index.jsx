@@ -2,14 +2,16 @@ import React from 'react'
 import Main from './Main'
 import Navbar from './Navbar'
 import Sidebar from './Sidebar'
-import {Container} from './styled'
+import {Container, Wrapper} from './styled'
 
 function YouTube() {
   return (
     <Container>
         <Navbar/>
-        <Sidebar/>
-        <Main/>
+        <Wrapper>
+          <Sidebar/>
+          <Main/>
+        </Wrapper>
     </Container>
   )
 }

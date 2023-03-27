@@ -8,6 +8,9 @@ const Container = styled.div`
     justify-content: space-between;
     align-items: center;
     height: 60px;
+    position: sticky;
+    top: 0;
+    background: #212121;
     /* border: 1px solid red; */
 `
 const Category = styled.div`
@@ -25,6 +28,7 @@ const Input = styled.input`
     width: 574px;
     height: 32px;
     color: #fff;
+    padding: 4px 8px;
 `;
 const Search = styled.div`
     display: flex;
@@ -37,7 +41,7 @@ const Search = styled.div`
 Search.Item = styled(search)``;
 
 const NavIcons1 = styled(camera)`
-margin-right: 30px;
+    margin-right: 30px;
 `;
 
 export {Container,Category,Icon,Input,Search,NavIcons1}

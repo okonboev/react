@@ -10,7 +10,7 @@ function Navbar() {
         <Icon.Logo src={logo} alt="logo"/>
       </Category>
       <Category>
-        <Input />
+        <Input  placeholder='search'/>
         <Search>
           <Search.Item />
         </Search>
