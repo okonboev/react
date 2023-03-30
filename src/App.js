@@ -1,10 +1,15 @@
-import React from 'react'
-import Reducer from './component/Reducer'
+import React, {useState} from 'react'
+import Body from './component/Body'
+import Navbar from './component/Navbar'
+ 
     
 function App() {
+
+
   return (
     <div >
-      <Reducer/>
+      <Navbar />
+      <Body />
     </div>
   )
 }
