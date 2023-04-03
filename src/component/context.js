@@ -12,11 +12,12 @@ function StudentList({children}) {
         {id:6,name:"Islom",title:'IT'},
         {id:7,name:"Javohir",title:'IT'},
         {id:8,name:"Jasur",title:'IT'},
+        {id:9,name:"Jasur",title:'Iweb'},
     ]
     const [state, setState]=useState(data)
   return (
     <StutendContext.Provider value={[state, setState]}>{children}</StutendContext.Provider>
   )
 }
-  
+
 export default StudentList
