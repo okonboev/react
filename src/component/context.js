@@ -14,10 +14,9 @@ function StudentList({children}) {
         {id:8,name:"Jasur",title:'IT'},
     ]
     const [state, setState]=useState(data)
-
   return (
     <StutendContext.Provider value={[state, setState]}>{children}</StutendContext.Provider>
   )
 }
-
+  
 export default StudentList
