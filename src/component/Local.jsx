@@ -5,15 +5,15 @@ function Local() {
     const [count,setCount] = useState(localStorage.getItem('count'))
     const [state,setState] = useState(123)
     const plus = () =>{
-        localStorage.setItem('count',+count+1)
-        setCount(+count+1)
+        localStorage.setItem('count',Number(count)+1)
+        setCount(Number(count)+1)
     }
-
     localStorage.setItem('state',state)
     const minus = () =>{
         localStorage.setItem('count',count-1)
         setCount(count-1)
     }
+
   return (
     <div>
         <h1>count {localStorage.getItem('count')}</h1>
