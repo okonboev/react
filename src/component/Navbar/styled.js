@@ -12,7 +12,6 @@ export const Container = styled.div`
 `;
 
 export const Link = styled(NavLink)`
-color: white;
-text-decoration:none;
+    text-decoration:none;
 
 `;

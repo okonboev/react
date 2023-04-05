@@ -1,18 +1,25 @@
 import React from 'react'
 import {Container} from './styled'
 import {Link} from './styled'
+import {NavLink, Outlet} from 'react-router-dom'
 
 function Navbar() {
+  // const active = (url) => {
+  //    return window.location.pathname.includes(url)
+  // }
   return (
+    <>
     <Container>
-        <Link exact activeStyle={{color:"coral"}} to={'/'}>Logo</Link>
-        <Link activeStyle={{color:"coral"}} to={'/home'}>Home</Link>
-        <Link activeStyle={{color:"coral"}} to={'/contact'}>Contact</Link>
-        <Link activeStyle={{color:"coral"}} to={'/category'}>Category</Link>
-        <Link activeStyle={{color:"coral"}} to={'/about'}>About</Link>
-        <Link activeStyle={{color:"coral"}} to={'/news'}>News</Link>
-        <Link activeStyle={{color:"coral"}} to={'/sport'}>Sport</Link>
+        <NavLink style={({isActive})=>{return {color:isActive?"red":"white"}}}  to={'/'}>Logo</NavLink>
+        <NavLink style={({isActive})=>{return {color:isActive?"red":"white"}}}  to={'/home'}>Home</NavLink>
+        <NavLink style={({isActive})=>{return {color:isActive?"red":"white"}}}  to={'/contact'}>Contact</NavLink>
+        <NavLink style={({isActive})=>{return {color:isActive?"red":"white"}}}  to={'/category'}>Category</NavLink>
+        <NavLink style={({isActive})=>{return {color:isActive?"red":"white"}}}  to={'/about'}>About</NavLink>
+        <NavLink style={({isActive})=>{return {color:isActive?"red":"white"}}}  to={'/news'}>News</NavLink>
+        <NavLink style={({isActive})=>{return {color:isActive?"red":"white"}}}  to={'/sport'}>Sport</NavLink>
     </Container>
+    <Outlet/>
+    </>
   )
 }
 
